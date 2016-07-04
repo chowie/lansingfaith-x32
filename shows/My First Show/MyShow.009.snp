@@ -1,0 +1,76 @@
+#2.1# "Video iMac" 24831 -1073741824 12582912 32768 1                                                                          
+/fx/1 VRM
+/fx/1/source MIX13 MIX13
+/fx/1/par 70 0.40 32 28 24 1.0 1.00 1.00 97 10k4 34 34 OFF 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/fx/2 VREV
+/fx/2/source MIX14 MIX14
+/fx/2/par 40 1.0 100 ON FRONT 0.0 76 11k9 1.00 0.70 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/headamp/030 +18.5 OFF
+/ch/31/preamp +0.0 OFF ON 24  62
+/ch/31/delay OFF   0.3
+/ch/31/config "MAC 1" 56 GNi 31
+/ch/31/eq ON
+/ch/31/eq/1 PEQ 98.0 +3.50 5.5
+/ch/31/eq/2 PEQ 2k43 +2.00 2.8
+/ch/31/eq/3 VEQ 5k76 +1.75 2.8
+/ch/31/eq/4 HShv 14k15 +2.50 1.5
+/ch/31/gate ON GATE -70.5 60.0 1  502  983 0
+/ch/31/gate/filter OFF 3.0 990.9
+/ch/31/dyn ON COMP PEAK LOG -23.0 4.0 5 0.00 14 10.0  151 POST 0 100 OFF
+/ch/31/dyn/filter OFF 3.0 990.9
+/ch/31/insert OFF POST OFF
+/ch/31/grp %10000000 %000000
+/ch/31/mix/fader  -0.2
+/ch/31/mix/pan -100
+/ch/31/mix/on ON
+/headamp/031 +18.5 OFF
+/ch/32/preamp +0.0 OFF ON 24  62
+/ch/32/delay OFF   0.3
+/ch/32/config "MAC 1" 57 GNi 32
+/ch/32/eq ON
+/ch/32/eq/1 PEQ 98.0 +3.50 5.5
+/ch/32/eq/2 PEQ 2k43 +2.00 2.8
+/ch/32/eq/3 VEQ 5k76 +1.75 2.8
+/ch/32/eq/4 HShv 14k15 +2.50 1.5
+/ch/32/gate ON GATE -70.5 60.0 1  502  983 0
+/ch/32/gate/filter OFF 3.0 990.9
+/ch/32/dyn ON COMP PEAK LOG -23.0 4.0 5 0.00 14 10.0  151 POST 0 100 OFF
+/ch/32/dyn/filter OFF 3.0 990.9
+/ch/32/insert OFF POST OFF
+/ch/32/grp %10000000 %000000
+/ch/32/mix/fader  -0.2
+/ch/32/mix/pan +100
+/ch/32/mix/on ON
+/bus/07/config "RecordMatrix" 73 CY
+/bus/07/eq OFF
+/bus/07/eq/1 LShv 79.6 +0.00 2.0
+/bus/07/eq/2 PEQ 158.9 +0.00 2.0
+/bus/07/eq/3 PEQ 496.6 +0.00 2.0
+/bus/07/eq/4 PEQ 1k97 +0.00 2.0
+/bus/07/eq/5 PEQ 5k02 +0.00 2.0
+/bus/07/eq/6 HShv 10k02 +0.00 2.0
+/bus/07/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/bus/07/dyn/filter OFF 3.0 990.9
+/bus/07/insert OFF PRE OFF
+/bus/07/grp %00000000 %000000
+/bus/07/mix/fader  +0.6
+/bus/07/mix/pan +0
+/bus/07/mix/on ON
+/bus/08/config "RecordMatrix" 73 CY
+/bus/08/eq OFF
+/bus/08/eq/1 LShv 79.6 +0.00 2.0
+/bus/08/eq/2 PEQ 158.9 +0.00 2.0
+/bus/08/eq/3 PEQ 496.6 +0.00 2.0
+/bus/08/eq/4 PEQ 1k97 +0.00 2.0
+/bus/08/eq/5 PEQ 5k02 +0.00 2.0
+/bus/08/eq/6 HShv 10k02 +0.00 2.0
+/bus/08/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/bus/08/dyn/filter OFF 3.0 990.9
+/bus/08/insert OFF PRE OFF
+/bus/08/grp %00000000 %000000
+/bus/08/mix/fader  +0.8
+/bus/08/mix/pan +0
+/bus/08/mix/on ON
+/dca/8/config "Mac 1&2" 62 GNi
+/dca/8/fader  -4.2
+/dca/8/on ON

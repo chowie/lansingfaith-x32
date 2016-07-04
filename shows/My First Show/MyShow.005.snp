@@ -1,0 +1,17 @@
+#2.1# "KEYS" 65630 1024 0 0 1                                                                                                  
+/fx/4 SUB
+/fx/4/source MIX16 MIX16
+/fx/4/par ON LO 100 30 0 ON LO 100 30 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/ch/11/config "Electric" 22 MGi 11
+/ch/11/eq ON
+/ch/11/eq/1 PEQ 164.4 +0.00 3.9
+/ch/11/eq/2 PEQ 479.8 -0.25 2.0
+/ch/11/eq/3 PEQ 3k20 +0.00 6.1
+/ch/11/eq/4 HShv 14k15 +2.50 2.0
+/ch/11/gate OFF GATE -53.0 60.0 9  502  983 0
+/ch/11/gate/filter OFF 3.0 3k09
+/ch/11/dyn ON COMP PEAK LOG -24.0 2.5 4 11.0 9 7.96  151 POST 0 100 OFF
+/ch/11/dyn/filter OFF 3.0 3k09
+/ch/11/insert OFF POST OFF
+/ch/11/mix/fader  -0.6
+/ch/11/mix/pan -8

@@ -1,0 +1,43 @@
+#2.1# "Anoun Mel " 367 8388608 32 0 1                                                                                          
+/headamp/055 +27.0 OFF
+/ch/24/preamp +0.0 OFF ON 24 136
+/ch/24/delay OFF   0.3
+/ch/24/config "Red Announce" 51 RDi 24
+/ch/24/eq ON
+/ch/24/eq/1 PEQ 216.8 -2.50 5.5
+/ch/24/eq/2 VEQ 3k31 +2.00 4.1
+/ch/24/eq/3 VEQ 7k09 +0.50 6.4
+/ch/24/eq/4 HShv 15k17 +2.75 2.0
+/ch/24/gate ON GATE -60.5 60.0 1  502  983 0
+/ch/24/gate/filter OFF 3.0 990.9
+/ch/24/dyn ON COMP PEAK LOG -35.5 3.0 3 0.00 1 10.0  13 PRE 0 100 OFF
+/ch/24/dyn/filter OFF 3.0 990.9
+/ch/24/grp %00100000 %000001
+/ch/24/mix/fader  +1.6
+/ch/24/mix/pan +0
+/ch/24/mix/01 ON   -oo +0 EQ->
+/ch/24/mix/02 ON   -oo
+/ch/24/mix/03 OFF   -oo +0 EQ->
+/ch/24/mix/04 ON   -oo
+/ch/24/mix/05 ON   -oo +0 EQ->
+/ch/24/mix/06 ON   -oo
+/ch/24/mix/07 ON  +4.3 +0 EQ->
+/ch/24/mix/08 ON  +3.0
+/auxin/06/preamp +13.0 OFF
+/auxin/06/config "iPod" 57 BLi 38
+/auxin/06/eq ON
+/auxin/06/eq/1 LCut 64.7 +0.00 0.8
+/auxin/06/eq/2 PEQ 105.0 +3.25 0.5
+/auxin/06/eq/3 PEQ 1k44 +0.75 0.8
+/auxin/06/eq/4 PEQ 11k50 +1.00 0.7
+/auxin/06/grp %00010000 %000001
+/auxin/06/mix/fader  -8.8
+/auxin/06/mix/pan +100
+/auxin/06/mix/01 ON   -oo +100 PRE
+/auxin/06/mix/02 ON   -oo
+/auxin/06/mix/03 ON   -oo +100 PRE
+/auxin/06/mix/04 ON   -oo
+/auxin/06/mix/05 ON   -oo +100 PRE
+/auxin/06/mix/06 ON   -oo
+/auxin/06/mix/07 ON  -7.3 +100 PRE
+/auxin/06/mix/08 ON  -7.5

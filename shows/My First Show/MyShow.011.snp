@@ -1,0 +1,59 @@
+#2.1# "Music-iMac" 65791 0 12582915 4096 1                                                                                     
+/fx/4 PQ5
+/fx/4/source MIX16 MIX16
+/fx/4/par ON 0.0 200 0.0 1k5 0.0 4k 0.0 ON 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/auxin/01/preamp +5.8 OFF
+/auxin/01/config "Mac2" 56 MG 33
+/auxin/01/eq ON
+/auxin/01/eq/1 PEQ 67.0 +3.00 2.0
+/auxin/01/eq/2 PEQ 257.6 +2.25 2.1
+/auxin/01/eq/3 PEQ 2k99 +2.75 2.8
+/auxin/01/eq/4 HShv 10k37 +3.25 2.0
+/auxin/01/grp %00010000 %000001
+/auxin/01/mix/fader -16.2
+/auxin/01/mix/pan -100
+/auxin/01/mix/on ON
+/auxin/02/preamp +5.8 OFF
+/auxin/02/config "Mac2" 57 MG 34
+/auxin/02/eq ON
+/auxin/02/eq/1 PEQ 67.0 +3.00 2.0
+/auxin/02/eq/2 PEQ 257.6 +2.25 2.1
+/auxin/02/eq/3 PEQ 2k99 +2.75 2.8
+/auxin/02/eq/4 HShv 10k37 +3.25 2.0
+/auxin/02/grp %00010000 %000001
+/auxin/02/mix/fader -16.2
+/auxin/02/mix/pan +100
+/auxin/02/mix/on ON
+/bus/07/config "RecordMatrix" 73 CY
+/bus/07/eq OFF
+/bus/07/eq/1 LShv 79.6 +0.00 2.0
+/bus/07/eq/2 PEQ 158.9 +0.00 2.0
+/bus/07/eq/3 PEQ 496.6 +0.00 2.0
+/bus/07/eq/4 PEQ 1k97 +0.00 2.0
+/bus/07/eq/5 PEQ 5k02 +0.00 2.0
+/bus/07/eq/6 HShv 10k02 +0.00 2.0
+/bus/07/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/bus/07/dyn/filter OFF 3.0 990.9
+/bus/07/insert OFF PRE OFF
+/bus/07/grp %00000000 %000000
+/bus/07/mix/fader  +1.8
+/bus/07/mix/pan +0
+/bus/07/mix/on ON
+/bus/08/config "RecordMatrix" 73 CY
+/bus/08/eq OFF
+/bus/08/eq/1 LShv 79.6 +0.00 2.0
+/bus/08/eq/2 PEQ 158.9 +0.00 2.0
+/bus/08/eq/3 PEQ 496.6 +0.00 2.0
+/bus/08/eq/4 PEQ 1k97 +0.00 2.0
+/bus/08/eq/5 PEQ 5k02 +0.00 2.0
+/bus/08/eq/6 HShv 10k02 +0.00 2.0
+/bus/08/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/bus/08/dyn/filter OFF 3.0 990.9
+/bus/08/insert OFF PRE OFF
+/bus/08/grp %00000000 %000000
+/bus/08/mix/fader  +2.4
+/bus/08/mix/pan +0
+/bus/08/mix/on ON
+/dca/5/config "Mac2/CD/iPod" 69 MG
+/dca/5/fader  -6.1
+/dca/5/on ON

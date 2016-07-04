@@ -1,0 +1,55 @@
+#2.1# "Kirk" 17502 65856 0 0 1                                                                                                 
+/fx/2 VREV
+/fx/2/source MIX14 MIX14
+/fx/2/par 40 3.0 100 ON FRONT 0.0 76 11k9 0.80 0.70 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/ch/07/config "Click" 74 BLi 7
+/ch/07/eq OFF
+/ch/07/eq/1 PEQ 124.7 +0.00 2.0
+/ch/07/eq/2 PEQ 496.6 +0.00 2.0
+/ch/07/eq/3 PEQ 1k97 +0.00 2.0
+/ch/07/eq/4 HShv 10k02 +0.00 2.0
+/ch/07/gate OFF GATE -80.0 60.0 1  502  983 0
+/ch/07/gate/filter OFF 3.0 990.9
+/ch/07/dyn OFF COMP PEAK LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/ch/07/dyn/filter OFF 3.0 990.9
+/ch/07/insert OFF POST OFF
+/ch/07/mix/fader -84.4
+/ch/07/mix/pan +0
+/ch/07/mix/13 ON   -oo +0 POST
+/ch/07/mix/14 OFF   -oo
+/ch/07/mix/15 ON   -oo +0 POST
+/ch/07/mix/16 ON   -oo
+/ch/09/config "Bass" 17 CYi 9
+/ch/09/eq ON
+/ch/09/eq/1 VEQ 91.4 +3.00 2.0
+/ch/09/eq/2 PEQ 496.6 +0.00 2.0
+/ch/09/eq/3 PEQ 3k68 -2.50 1.7
+/ch/09/eq/4 HShv 8k14 +2.50 2.0
+/ch/09/gate ON GATE -53.5 49.0 8  502  983 0
+/ch/09/gate/filter OFF 3.0 990.9
+/ch/09/dyn ON COMP PEAK LOG -24.0 4.0 1 5.50 11 10.0  151 POST 0 100 OFF
+/ch/09/dyn/filter OFF 3.0 990.9
+/ch/09/insert OFF POST OFF
+/ch/09/mix/fader  -6.8
+/ch/09/mix/pan +0
+/ch/09/mix/13 ON  -1.8 +0 POST
+/ch/09/mix/14 OFF   -oo
+/ch/09/mix/15 ON   -oo +0 POST
+/ch/09/mix/16 ON   -oo
+/ch/17/config "Body Pack 1" 41 WH 17
+/ch/17/eq ON
+/ch/17/eq/1 PEQ 248.9 +0.00 1.0
+/ch/17/eq/2 PEQ 463.5 -2.75 2.6
+/ch/17/eq/3 VEQ 6k85 -3.25 6.7
+/ch/17/eq/4 HShv 14k65 +3.00 2.0
+/ch/17/gate ON GATE -59.0 60.0 1  502  983 0
+/ch/17/gate/filter OFF 3.0 990.9
+/ch/17/dyn ON COMP PEAK LOG -27.0 2.5 2 1.00 2 10.0  141 PRE 0 100 OFF
+/ch/17/dyn/filter OFF 1.0 990.9
+/ch/17/insert ON POST FX8L
+/ch/17/mix/fader  +1.6
+/ch/17/mix/pan +0
+/ch/17/mix/13 OFF  -9.5 +0 POST
+/ch/17/mix/14 ON -18.5
+/ch/17/mix/15 ON   -oo +0 POST
+/ch/17/mix/16 OFF   -oo

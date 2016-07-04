@@ -1,0 +1,20 @@
+#2.1# "Evan" 24700 8388608 0 0 1                                                                                               
+/fx/1 VRM
+/fx/1/source MIX13 MIX13
+/fx/1/par 20 2.16 32 16 22 0.0 1.10 0.69 89 10k4 28 34 OFF 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/fx/2 VREV
+/fx/2/source MIX14 MIX14
+/fx/2/par 40 3.0 100 ON FRONT 0.0 76 11k9 0.80 0.70 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/ch/24/eq ON
+/ch/24/eq/1 PEQ 216.8 -2.50 5.3
+/ch/24/eq/2 VEQ 2k60 +2.00 4.8
+/ch/24/eq/3 VEQ 7k09 -2.75 6.4
+/ch/24/eq/4 HShv 15k70 +2.75 2.0
+/ch/24/gate ON GATE -60.5 60.0 1  502  983 0
+/ch/24/gate/filter OFF 3.0 990.9
+/ch/24/dyn ON COMP PEAK LOG -35.5 3.0 3 0.00 1 10.0  13 PRE 0 100 OFF
+/ch/24/dyn/filter OFF 3.0 990.9
+/ch/24/insert OFF POST OFF
+/ch/24/grp %00100000 %000001
+/ch/24/mix/fader  -3.9
+/ch/24/mix/pan +0

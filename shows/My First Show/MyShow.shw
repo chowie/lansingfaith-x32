@@ -1,0 +1,42 @@
+#2.1#
+show "MyShow" 0 0 0 0 0 0 0 0 0 0 "2.12"
+cue/000 100 "Pre-service" 0 55 11 0 1 0 0
+cue/001 110 "Prep music" 0 51 11 0 1 0 0
+cue/002 200 "Music" 0 51 -1 0 1 0 0
+cue/003 290 "Prep Announ." 0 51 9 0 1 0 0
+cue/004 300 "Announcements" 0 53 0 0 1 0 0
+cue/005 310 "Evan" 0 56 0 0 1 0 0
+cue/006 390 "Bumper" 0 -1 9 0 1 0 0
+cue/007 391 "Add Kirk" 0 -1 2 0 1 0 0
+cue/008 400 "Sermon" 0 56 -1 0 1 0 0
+cue/009 450 "Video" 0 -1 9 0 1 0 0
+cue/010 460 "sermon" 0 56 -1 0 1 0 0
+cue/011 470 "Kirk" 0 -1 2 0 1 0 0
+cue/012 500 "AFTER" 0 55 -1 0 1 0 0
+scene/000 "DEFAULT" "" %000000000 1
+scene/001 "Sunday Service" "" %000000000 1
+scene/002 "6.5.16" "" %000000000 1
+scene/004 "Pre-service" "" %000000000 1
+scene/006 "Sermon" "" %000000000 1
+scene/010 "AWANA" "" %000000000 1
+scene/014 "S" "" %000000000 1
+scene/050 "[ch] 2016-06-19" "" %000000000 1
+scene/051 "[ch] 2016-06-19" "" %000000000 1
+scene/052 "[ch] 2016-05-29" "" %000000000 1
+scene/053 "Video" "" %000000000 1
+scene/054 "[ch] 2016-05-29 " "" %000000000 1
+scene/055 "PRE" "" %000000000 1
+scene/056 "Kirk" "" %000000000 1
+scene/057 "Evan" "" %000000000 1
+snippet/000 "Evan" 24700 8388608 0 0 1
+snippet/001 "Prep CD" 94 0 12 0 1
+snippet/002 "Kirk" 17502 65856 0 0 1
+snippet/003 "NONE MORE POWER" 32768 262144 12288 0 1
+snippet/004 "Voc Speak FX" 33860 7864320 268435456 0 1
+snippet/005 "KEYS" 65630 1024 0 0 1
+snippet/006 "Rob Acoustic" 65630 1024 0 0 1
+snippet/007 "Anoun Mel " 367 8388608 32 0 1
+snippet/008 "ANOUN Jordan" 16895 8388608 0 8192 1
+snippet/009 "Video iMac" 24831 -1073741824 12582912 32768 1
+snippet/010 "Pack - Tamar" 16895 65536 0 16384 1
+snippet/011 "Music-iMac" 65791 0 12582915 4096 1

@@ -1,0 +1,17 @@
+#2.1# "Prep CD" 94 0 12 0 1                                                                                                    
+/auxin/03/config "CD Player" 56 BLi 35
+/auxin/03/eq ON
+/auxin/03/eq/1 PEQ 124.7 +0.00 2.0
+/auxin/03/eq/2 PEQ 496.6 +0.00 2.0
+/auxin/03/eq/3 PEQ 1k97 +0.00 2.0
+/auxin/03/eq/4 HShv 10k02 +0.00 2.0
+/auxin/03/mix/fader -80.6
+/auxin/03/mix/pan -100
+/auxin/04/config "CD Player" 57 BLi 36
+/auxin/04/eq ON
+/auxin/04/eq/1 PEQ 124.7 +0.00 2.0
+/auxin/04/eq/2 PEQ 496.6 +0.00 2.0
+/auxin/04/eq/3 PEQ 1k97 +0.00 2.0
+/auxin/04/eq/4 HShv 10k02 +0.00 2.0
+/auxin/04/mix/fader -80.6
+/auxin/04/mix/pan +100

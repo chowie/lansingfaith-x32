@@ -1,0 +1,57 @@
+#2.1# "Voc Speak FX" 33860 7864320 268435456 0 1                                                                               
+/fx/3 DLY
+/fx/3/source MIX15 MIX15
+/fx/3/par 72 412 X 1/2 3/2 13 132 6k6 167 30 30 6k6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/ch/20/eq ON
+/ch/20/eq/1 PEQ 224.4 +0.25 2.2
+/ch/20/eq/2 PEQ 317.0 -3.50 3.4
+/ch/20/eq/3 VEQ 4k08 +1.75 4.5
+/ch/20/eq/4 HShv 12k76 +2.75 2.0
+/ch/20/mix/fader  -2.6
+/ch/20/mix/pan +0
+/ch/20/mix/13 OFF   -oo +0 POST
+/ch/20/mix/14 ON -29.0
+/ch/20/mix/15 ON   -oo +0 POST
+/ch/20/mix/16 OFF   -oo
+/ch/21/eq ON
+/ch/21/eq/1 VEQ 138.4 -1.00 3.1
+/ch/21/eq/2 VEQ 514.1 -2.25 3.7
+/ch/21/eq/3 PEQ 3k43 +0.00 8.6
+/ch/21/eq/4 HShv 11k91 +1.25 2.0
+/ch/21/mix/fader  -6.9
+/ch/21/mix/pan -12
+/ch/21/mix/13 OFF   -oo +0 POST
+/ch/21/mix/14 ON -29.0
+/ch/21/mix/15 OFF   -oo +0 POST
+/ch/21/mix/16 OFF   -oo
+/ch/22/eq ON
+/ch/22/eq/1 PEQ 224.4 -2.00 0.3
+/ch/22/eq/2 PEQ 833.7 -5.75 0.5
+/ch/22/eq/3 PEQ 4k22 -1.00 0.5
+/ch/22/eq/4 HShv 13k21 -4.50 2.0
+/ch/22/mix/fader  -7.8
+/ch/22/mix/pan +6
+/ch/22/mix/13 OFF   -oo +0 POST
+/ch/22/mix/14 OFF   -oo
+/ch/22/mix/15 OFF   -oo +0 POST
+/ch/22/mix/16 OFF   -oo
+/ch/23/eq ON
+/ch/23/eq/1 VEQ 129.1 +0.25 5.5
+/ch/23/eq/2 PEQ 295.8 -0.25 6.1
+/ch/23/eq/3 VEQ 611.0 +0.25  10
+/ch/23/eq/4 HShv 14k65 +2.75 2.0
+/ch/23/mix/fader  -0.6
+/ch/23/mix/pan +12
+/ch/23/mix/13 OFF   -oo +0 POST
+/ch/23/mix/14 ON  -7.0
+/ch/23/mix/15 OFF   -oo +0 POST
+/ch/23/mix/16 OFF   -oo
+/bus/13/eq OFF
+/bus/13/eq/1 LShv 79.6 +0.00 2.0
+/bus/13/eq/2 PEQ 158.9 +0.00 2.0
+/bus/13/eq/3 PEQ 496.6 +0.00 2.0
+/bus/13/eq/4 PEQ 1k97 +0.00 2.0
+/bus/13/eq/5 PEQ 5k02 +0.00 2.0
+/bus/13/eq/6 HShv 10k02 +0.00 2.0
+/bus/13/mix/fader  -5.1
+/bus/13/mix/pan +0

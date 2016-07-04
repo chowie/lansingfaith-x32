@@ -1,7 +1,8 @@
-#2.1# "Dallas Speak" 17663 524288 536870915 0 1                                                                                
+#2.1# "Dallas Speak" 17663 524288 536870912 2048 1                                                                             
 /fx/2 VREV
 /fx/2/source MIX14 MIX14
 /fx/2/par 40 3.0 100 OFF FRONT 0.0 76 11k9 1.00 0.70 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/headamp/051 +31.0 OFF
 /ch/20/preamp +0.0 OFF ON 24 140
 /ch/20/delay OFF   0.3
 /ch/20/config "Black Mic" 51 WH 20
@@ -12,7 +13,7 @@
 /ch/20/eq/4 HShv 10k74 +3.00 2.0
 /ch/20/gate OFF GATE -71.5 60.0 1  502  983 0
 /ch/20/gate/filter OFF 3.0 990.9
-/ch/20/dyn ON COMP PEAK LOG -30.0 2.5 1 4.00 6 10.0  162 POST 0 100 OFF
+/ch/20/dyn ON COMP PEAK LOG -30.0 2.0 1 4.00 10  316  162 POST 0 100 OFF
 /ch/20/dyn/filter OFF 3.0 990.9
 /ch/20/insert OFF POST OFF
 /ch/20/grp %00001000 %000001
@@ -20,39 +21,9 @@
 /ch/20/mix/pan +0
 /ch/20/mix/on ON
 /ch/20/mix/13 OFF   -oo +0 POST
-/ch/20/mix/14 ON -78.0
+/ch/20/mix/14 ON -48.0
 /ch/20/mix/15 ON   -oo +0 POST
 /ch/20/mix/16 OFF   -oo
-/auxin/01/preamp +5.8 OFF
-/auxin/01/config "Mac2" 56 MG 33
-/auxin/01/eq ON
-/auxin/01/eq/1 PEQ 67.0 +3.00 2.0
-/auxin/01/eq/2 PEQ 257.6 +2.25 2.1
-/auxin/01/eq/3 PEQ 2k99 +2.75 2.8
-/auxin/01/eq/4 HShv 10k37 +3.25 2.0
-/auxin/01/grp %00010000 %000001
-/auxin/01/mix/fader  -9.3
-/auxin/01/mix/pan -100
-/auxin/01/mix/on OFF
-/auxin/01/mix/13 ON   -oo -100 POST
-/auxin/01/mix/14 ON   -oo
-/auxin/01/mix/15 ON   -oo -100 POST
-/auxin/01/mix/16 ON   -oo
-/auxin/02/preamp +5.8 OFF
-/auxin/02/config "Mac2" 57 MG 34
-/auxin/02/eq ON
-/auxin/02/eq/1 PEQ 67.0 +3.00 2.0
-/auxin/02/eq/2 PEQ 257.6 +2.25 2.1
-/auxin/02/eq/3 PEQ 2k99 +2.75 2.8
-/auxin/02/eq/4 HShv 10k37 +3.25 2.0
-/auxin/02/grp %00010000 %000001
-/auxin/02/mix/fader  -9.3
-/auxin/02/mix/pan +100
-/auxin/02/mix/on OFF
-/auxin/02/mix/13 ON   -oo +100 POST
-/auxin/02/mix/14 ON   -oo
-/auxin/02/mix/15 ON   -oo +100 POST
-/auxin/02/mix/16 ON   -oo
 /bus/14/config "Fx 2" 71 MG
 /bus/14/eq OFF
 /bus/14/eq/1 LShv 79.6 +0.00 2.0
@@ -68,3 +39,6 @@
 /bus/14/mix/fader  -3.3
 /bus/14/mix/pan +0
 /bus/14/mix/on ON
+/dca/4/config "VOCALS" 43 YEi
+/dca/4/fader  +2.9
+/dca/4/on ON

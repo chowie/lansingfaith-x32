@@ -1,9 +1,9 @@
 #2.1#
-show "Show 2016-07-03" 0 0 0 0 57400 65280 0 255 0 15 "2.12"
+show "Show 2016-07-03" 0 0 0 0 0 0 0 255 0 255 "2.12"
 cue/000 100 "Pre-service" 0 55 11 0 1 0 0
 cue/001 110 "-- Prep Band" 0 51 11 0 1 0 0
 cue/002 200 "Songs 1 & 2" 0 51 -1 0 1 0 0
-cue/003 250 "-- prayer" 0 52 13 0 1 0 0
+cue/003 250 "-- prayer" 0 -1 13 0 1 0 0
 cue/004 300 "Intro Offr Pray" 0 53 13 0 1 0 0
 cue/005 350 "-- Prep Video" 0 53 9 0 1 0 0
 cue/006 400 "Video" 0 54 12 0 1 0 0
@@ -11,13 +11,14 @@ cue/007 480 "-- Prep Sermon" 0 -1 15 0 1 0 0
 cue/008 500 "Sermon" 0 56 15 0 1 0 0
 cue/009 510 "-- Video" 0 -1 12 0 1 0 0
 cue/010 520 "-- Sermon 2" 0 6 15 0 1 0 0
-cue/011 570 "-- Prep Band" 0 51 13 0 1 0 0
-cue/012 600 "Close 2 songs" 0 51 14 0 1 0 0
-cue/013 650 "-- Dallas Talk" 0 52 13 0 1 0 0
-cue/014 670 "-- tLOG" 0 51 14 0 1 0 0
-cue/015 680 "-- prep Dallas" 0 -1 13 0 1 0 0
-cue/016 700 "Close" 0 53 13 0 1 0 0
-cue/017 800 "Music" 0 55 -1 0 1 0 0
+cue/011 570 "-- Prep Band" 0 51 15 0 1 0 0
+cue/012 580 "-- Prep Dallas" 0 -1 13 0 1 0 0
+cue/013 600 "Close 2 songs" 0 51 14 0 1 0 0
+cue/014 650 "-- Dallas Talk" 0 52 13 0 1 0 0
+cue/015 670 "-- tLOG" 0 51 14 0 1 0 0
+cue/016 680 "-- prep Dallas" 0 -1 13 0 1 0 0
+cue/017 700 "Close" 0 53 13 0 1 0 0
+cue/018 800 "Music" 0 55 -1 0 1 0 0
 scene/000 "DEFAULT" "" %000000000 1
 scene/001 "Sunday Service" "" %000000000 1
 scene/002 "6.5.16" "" %000000000 1
@@ -30,7 +31,7 @@ scene/051 "[ch] 2016-07-03a" "Full Band" %000000000 1
 scene/052 "[ch] 2016-07-03b" "Intro to Offering" %000000000 1
 scene/053 "Dallas Intro" "Intro to offr n pray" %000000000 1
 scene/054 "Video" "IMac audio feed" %000101000 1
-scene/055 "iMac Music" "iMac by snd brd" %000101000 1
+scene/055 "iMac Music" "iMac by snd brd" %000000000 1
 scene/056 "Sermon" "" %000000000 1
 scene/057 "Evan" "" %000000000 1
 snippet/000 "Evan" 24700 8388608 0 0 1
@@ -44,8 +45,9 @@ snippet/007 "Anoun Mel " 367 8388608 32 0 1
 snippet/008 "ANOUN Jordan" 16895 8388608 0 8192 1
 snippet/009 "Video iMac" 255 -1073741824 12582912 32768 1
 snippet/010 "Pack - Tamar" 16895 65536 0 16384 1
-snippet/011 "Music-iMac" 255 0 12582915 4096 1
-snippet/012 "Video iMac" 255 -1073741824 12582912 32768 1
-snippet/013 "Dallas Speak" 17663 524288 536870915 0 1
-snippet/014 "Dallas Sing" 17663 524288 536870915 0 1
-snippet/015 "Josh wireless" 17919 65536 549453824 16384 1
+snippet/011 "Music-iMac" 16639 524288 549453827 4096 1
+snippet/012 "Video iMac" 2047 128 16711680 512 1
+snippet/013 "Dallas Speak" 17663 524288 536870912 2048 1
+snippet/014 "Dallas Sing" 17663 524288 536870912 2048 1
+snippet/015 "Josh wireless" 16639 524288 549453827 16384 1
+snippet/016 "LOOP" 2047 128 16711680 512 1
